@@ -1,0 +1,25 @@
+# BEGIN: Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+# END: Terraform
+
+# BEGIN: macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# END: macOS
+
+.vscode/
+
+ny_taxi_pg_data/
+
+*.json
